@@ -1,0 +1,15 @@
+MODIFICHE MODELLO DI DOMINIO:
+
+--- Modifiche derivate da contratti ---
+Modifiche derivate da EffettuaRichiesta (CO8):
+-Creare classe Ticket con attributi id, data
+-associare ticket a UtenteRegistrato e Richiesta
+
+Modifiche derivate da InserisciDatiCarta (CO3):
+-Associare CartaDiCredito a UtenteRegistrato
+-nelle post-condizioni è chiaro che deve essere presente un collegamentro tra l'utente a la propria carta (metodo di pagamento)
+
+--- Altre modifiche ---
+Modifica degli attributi della classe Prenotazione:
+-dataInizio
+-dataFine
